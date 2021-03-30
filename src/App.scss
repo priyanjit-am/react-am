@@ -1,0 +1,48 @@
+$color-white: white;
+$color-blue: #2060FD;
+$color-grey: #1A1A1A;
+$color-dark-grey: #0B0B0B;
+$color-light-grey: #2A2A2A;
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+// -------------------------------------------- Components --------------------------------------------
+.sidebar {
+  min-height: 100vh;
+  position: fixed;
+  background-color: $color-grey;
+  padding: 2rem 0.75rem;
+  transition: all 0.3s ease-in-out;
+  a {
+    text-decoration: none;
+  }
+  &-item {
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.25rem;
+    color: $color-white;
+    font-weight: 500;
+    border-radius: 6px;
+    &:hover {
+      background-color: $color-light-grey;
+    }
+    &-active {
+      background-color: $color-blue !important;
+    }
+  }
+}
+
+// --------------------------------------------- Pages ------------------------------------------------
+
+/**** Landing page start ****/
+.landing {
+  &-container {
+    background-color: $color-dark-grey;
+  }
+  &-content {
+    min-height: 100vh;
+  }
+}
+/**** Landing page end ****/
