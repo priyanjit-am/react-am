@@ -34,6 +34,20 @@ $color-light-grey: #2A2A2A;
   }
 }
 
+.testvideo {
+  &-loader {
+    background-color: $color-light-grey;
+    color: $color-white;
+  }
+  &-novideo {
+    background-color: $color-light-grey;
+    color: $color-white
+  }
+  &-control-panel {
+    bottom: 0;
+  }
+}
+
 // --------------------------------------------- Pages ------------------------------------------------
 
 /**** Landing page start ****/
